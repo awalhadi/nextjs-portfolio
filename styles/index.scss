@@ -1,0 +1,253 @@
+  /* header */
+
+.header {
+  display: block;
+  max-width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  /* background-color: #fff; */
+}
+.grey-color {
+  color: #868e96;
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  /* color: black; */
+  text-decoration: none;
+}
+
+.header li a:hover,
+.header .menuBtn:hover {
+  /* background-color: #A6E1FA; */
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-top: 10px;
+  line-height: normal;
+}
+.header .logoName {
+  font-family: "Agustina Regular";
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+/* menu */
+
+.menu {
+  font-family: "Google Sans Regular";
+}
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+/* menu icon */
+
+.header .menuIcon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menuIcon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 18px;
+}
+
+.header .menuIcon .navicon:before,
+.header .menuIcon .navicon:after {
+  background: #333;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.header .menuIcon .navicon:before {
+  top: 5px;
+}
+
+.header .menuIcon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menuBtn {
+  display: none;
+}
+
+.header .menuBtn:checked ~ .menu {
+  max-height: 370px;
+}
+
+.header .menuBtn:checked ~ .menuIcon .navicon {
+  background: transparent;
+}
+
+.header .menuBtn:checked ~ .menuIcon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menuBtn:checked ~ .menuIcon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menuBtn:checked ~ .menuIcon:not(.steps) .navicon:before,
+.header .menuBtn:checked ~ .menuIcon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header .menu {
+    max-height: none;
+  }
+  .header .menuIcon {
+    display: none;
+  }
+}
+@media (max-width: 960px) and (min-width: 768px) {
+  .header {
+    font-size: 12px;
+  }
+}
+
+  /* header and logo section end */
+
+
+
+
+  /* Greeting section and logo section start */
+  .main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 4rem;
+  }
+  .greet-main {
+    margin: 2rem auto 0;
+  }
+  .greet-main, .main {
+    width: 90%;
+    padding: 20px 10px;
+}
+  
+  .greeting-main {
+    display: flex;
+  }
+  
+  .greeting-main > * {
+    flex: 1;
+    margin-bottom: 30px;
+  }
+  .button-greeting-div {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .greeting-text {
+    margin-top: 80px;
+    font-size: 70px;
+    line-height: 1.1;
+    font-family: "Google Sans Bold";
+  }
+  
+  .greeting-nickname {
+    font-size: 30px;
+    line-height: 0px;
+    font-family: "Google Sans Bold Italic";
+  }
+  
+  .greeting-text-p {
+    font-size: 40px;
+    line-height: 40px;
+    margin-right: 40px;
+    font-family: "Google Sans Medium";
+  }
+  
+  .greeting-image-div > * {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media Query */
+  @media (max-width: 1380px) {
+    .greeting-text {
+      font-size: 50px;
+    }
+    .greeting-text-p {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 768px) {
+    .button-greeting-div {
+      justify-content: space-around;
+    }
+    .greeting-text {
+      font-size: 30px;
+      margin-top: 0px;
+      text-align: center;
+    }
+    .greeting-nickname {
+      font-size: 25px;
+      text-align: center;
+    }
+    .greeting-text-p {
+      font-size: 16px;
+      margin-right: 0px;
+      line-height: normal;
+      text-align: center;
+    }
+    .greeting-main {
+      display: block;
+    }
+  
+    .portfolio-repo-btn-div {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .tooltip-portal-class{
+    top: 915px !important;
+  }
+  
+  /* Greeting section and logo section end */
+
+  .nextui-c-hPzDAx .nextui-collapse-title{
+    font-size: 1.3rem;
+  }

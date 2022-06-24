@@ -1,0 +1,149 @@
+/* header */
+
+.header {
+    display: block;
+    max-width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    /* background-color: #fff; */
+  }
+  .grey-color {
+    color: #868e96;
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    /* color: black; */
+    text-decoration: none;
+  }
+  
+  .header li a:hover,
+  .header .menuBtn:hover {
+    /* background-color: #A6E1FA; */
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-top: 10px;
+    line-height: normal;
+  }
+  .header .logoName {
+    font-family: "Agustina Regular";
+    font-weight: bold;
+    padding: 0 10px;
+    /* color: #55198b; */
+  }
+  
+  /* menu */
+  
+  .menu {
+    font-family: "Google Sans Regular";
+  }
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  /* menu icon */
+  
+  .header .menuIcon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menuIcon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background 0.2s ease-out;
+    width: 18px;
+  }
+  
+  .header .menuIcon .navicon:before,
+  .header .menuIcon .navicon:after {
+    background: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all 0.2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menuIcon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menuIcon .navicon:after {
+    top: -5px;
+  }
+  
+  /* menu btn */
+  
+  .header .menuBtn {
+    display: none;
+  }
+  
+  .header .menuBtn:checked ~ .menu {
+    max-height: 370px;
+  }
+  
+  .header .menuBtn:checked ~ .menuIcon .navicon {
+    background: transparent;
+  }
+  
+  .header .menuBtn:checked ~ .menuIcon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menuBtn:checked ~ .menuIcon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menuBtn:checked ~ .menuIcon:not(.steps) .navicon:before,
+  .header .menuBtn:checked ~ .menuIcon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  /* 48em = 768px */
+  
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .header .menu {
+      max-height: none;
+    }
+    .header .menuIcon {
+      display: none;
+    }
+  }
+  @media (max-width: 960px) and (min-width: 768px) {
+    .header {
+      font-size: 12px;
+    }
+  }
+  
