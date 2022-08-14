@@ -32,7 +32,7 @@ const contact = () => {
                     height={50}
                     src={`/assets/images/${ContactData["profile_image_path"]}`}
                     layout="responsive"
-                    alt=""
+                    alt={CMS_NAME}
                   />
                 </div>
                 <div className={styles["contact-heading-text-div"]}>

@@ -36,7 +36,7 @@ const seo = {
   og: {
     title: "A Awal Hadi Hathidara Portfolio",
     type: "website",
-    url: "http://A Awal Hadihathidara.com/",
+    url: "http://awalhadi.ml/",
   },
 };
 
@@ -48,8 +48,8 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/awalhadi",
+    "https://drive.google.com/file/d/1u8YX5OPaQRHwFRWl3nmX02YZFjYoVMNi/view?usp=sharing",
+  portfolio_repository: "https://github.com/awalhadi/nextjs-portfolio",
   githubProfile: "https://github.com/awalhadi",
 };
 
@@ -102,10 +102,11 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Buils a scalable web application example: Inventory, cms, api and frontend development",
+        "⚡ Build my own custom “PHP MVC framework” Project by core PHP OOP",
+        "⚡ Builds a scalable web application example: Inventory, cms, api and frontend development",
         "⚡ Good problem solving skills",
         "⚡ Developing Frontend applications using VueJs, ReactJs and NextJs",
-        "⚡ Creating application backend in PHP, Laravel, Node, Express",
+        "⚡ Creating application backend in PHP, Laravel and basic knowledge of Node, Express",
       ],
       softwareSkills: [
         {
@@ -373,21 +374,12 @@ const certifications = {
       color_code: "#8C151599",
     },
     {
-      title: "Frontend Develpment",
+      title: "Frontend Development",
       subtitle: "- Programing hero",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link: "https://www.course.programing-hero.com",
       alt_name: "React developer",
       color_code: "#00000099",
-    },
-    {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
     },
   ],
 };
@@ -397,7 +389,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Internship",
   description:
-    "I have worked with many many web applications, Designer and Develop backend of web applications. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked with many many web applications, Designer and Develop backend of web applications. I love organizing events and that is why I am also involved with many open source communities as a representative.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -413,7 +405,7 @@ const experience = {
           duration: "June 2021 - PRESENT",
           location: "Dhaka, Bangladesh",
           description:
-            "I am working on web application developer. The projects involve Inve ntory management, Event management, forum, cms and ecommerce system. I am currently working on merraige system.Our goal is to make scalable and high performance web applications.",
+            "I am working on web application developer. The projects involve Inventory management, Event management, forum, cms and e-commerce system. I am currently working on marriage system.Our goal is to make scalable and high performance web applications.",
           color: "#0879bf",
         },
       ],

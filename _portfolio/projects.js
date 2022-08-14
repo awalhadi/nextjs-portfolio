@@ -36,7 +36,7 @@ const ProjectsData = {
       id: "MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=",
       name: "Forum website",
       createdAt: "2021-09-03T11:53:55Z",
-      url: "https://github.com/ashutosh1919/truvisory",
+      url: "https://forum.thesamaritans-f.org",
       description:
         "The complete forum wep app. It't really cool like adobe photoshop forum site. Its build with Laravel, php, javascript, Vuejs",
       isFork: false,
@@ -68,7 +68,7 @@ const ProjectsData = {
       id: "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTE=",
       name: "Event party management app",
       createdAt: "2020-06-19T14:24:55Z",
-      url: "https://github.com/ashutosh1919/ml-data-bot",
+      url: "https://northeast.laravel-script.com/",
       description:
         "Event Party management app. Its have some great features Like Dj booking, messaging with dj, realtime notification for message",
       isFork: false,
@@ -98,11 +98,11 @@ const ProjectsData = {
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkxNTU5NTE3NTk=",
-      name: "Simple react ecommerce",
+      name: "Simple react e-commerce",
       createdAt: "2020-11-03T05:00:56Z",
-      url: "https://github.com/ashutosh1919/Stock-Prediction-using-LSTM",
+      url: "https://hadi-ema-john.netlify.app/",
       description:
-        "Simple ecommerce website build with reactjs. Its have some grea features like stock availables, firebase authentication, cart product list, product details and many more",
+        "Simple e-commerce website build with reactjs. Its have some features like stock available, firebase authentication, cart product list, product details and many more",
       isFork: false,
       languages: [
         {
@@ -128,7 +128,7 @@ const ProjectsData = {
       id: "MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=",
       name: "Laravel CMS",
       createdAt: "2021-09-03T11:53:55Z",
-      url: "https://github.com/ashutosh1919/truvisory",
+      url: "https://safog.itclanhost.com/",
       description:
         "Laravel CMS application.Its fully menu builder, page builder, menue drag and drop change and many more",
       isFork: false,

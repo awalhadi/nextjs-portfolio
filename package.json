@@ -1,11 +1,12 @@
 {
   "name": "nextjs-portfolio",
+  "homepage": "http://awalhadi.ml",
   "private": true,
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
+  "dev": "next",
+  "build": "next build",
+  "start": "next start"
+},
   "dependencies": {
     "@nextui-org/react": "^1.0.0-beta.7",
     "@popperjs/core": "^2.11.5",
