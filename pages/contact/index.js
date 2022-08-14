@@ -28,8 +28,8 @@ const contact = () => {
               <div className={styles["contact-heading-div"]}>
                 <div className={styles["contact-heading-img-div"]}>
                   <Image
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     src={`/assets/images/${ContactData["profile_image_path"]}`}
                     layout="responsive"
                     alt={CMS_NAME}

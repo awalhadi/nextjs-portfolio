@@ -55,8 +55,9 @@
 }
 
 .contact-heading-img-div > * {
-  max-width: 100%;
+  max-width: 71%;
   height: auto;
+  border-radius: 50%;
 }
 
 .blog-heading-img-div > * {
