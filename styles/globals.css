@@ -1,45 +1,32 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
-
-@font-face {
-  font-family: 'Robot';
-  src: url('/fonts/robot-regular.ttf') format('truetype');
+/* @font-face {
+  font-family: "Robot";
+  src: url("/fonts/robot-regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-}
+} */
+/* Import Nunito font with multiple weights */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
 
-@font-face {
-  font-family: 'Robot';
-  src: url('/fonts/robot-bold.ttf') format('truetype');
+/* @font-face {
+  font-family: "Robot";
+  src: url("/fonts/robot-bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
-}
-
-body {
-  font-family: 'Robot', sans-serif;
-}
-
-/* @layer base{
-  body {
-      @apply dark:bg-gray-800 bg-white
-  }
 } */
 
-.nav-link {
-  color: #ffffff;
-  transition: color 0.3s ease;
+body {
+  /* font-family: "Robot", sans-serif; */
+  font-family: "Nunito", sans-serif;
+  color: black;
 }
 
-.nav-link:hover {
-  color: #f6ad55;
-}
-
-.section {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-margin-top: 80px; /* Adjust this value to offset the fixed navigation height */
+/* Apply Nunito font to specific elements (e.g., headings) */
+h1,
+h2,
+h3 {
+  font-family: "Nunito", sans-serif;
 }

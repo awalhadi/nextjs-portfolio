@@ -1,21 +1,23 @@
+import { calculateExperience } from "../utils/dateUtils";
+
 const About = () => {
-    return (
-      <section className="bg-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center justify-center">
-            <div className="md:w-1/2 mb-10 md:mb-0">
-              <img src="/profile.jpg" alt="Profile" className="w-full h-auto rounded-lg" />
-            </div>
-            <div className="md:w-1/2 md:ml-16">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-teal-800">About Me</h2>
-              <p className="text-lg text-gray-700 mb-6">I am a passionate web developer with expertise in HTML, CSS, and JavaScript. I love building responsive and user-friendly web applications.</p>
-              <p className="text-lg text-gray-700">With several years of experience in the industry, I have worked on various projects, collaborating with cross-functional teams to deliver high-quality solutions.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    );
-  };
-  
-  export default About;
-  
+  const startDate = '2021-03-14'; // Replace this with your actual starting date
+  const yearsOfExperience = calculateExperience(startDate);
+  return (
+    <section className="mb-10">
+      <h2 className="text-2xl font-semibold mb-3">About</h2>
+      <p>
+        I'm a passionate software developer with a strong background in PHP,
+        Laravel.Highly skilled and motivated web developer with {yearsOfExperience.years} {yearsOfExperience.months && yearsOfExperience.months > 0 && '+'} years of
+        experience.
+        <br />
+        <br />
+        I love building applications that solve real-world problems and
+        contribute to the open-source community. Constantly seeking new
+        challenges to learn and grow as a developer.
+      </p>
+    </section>
+  );
+};
+
+export default About;
