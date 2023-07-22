@@ -21,9 +21,7 @@ const CurrentlyLearning = () => {
           <li key={index} className="mb-4">
             <p className="font-bold">{item.title}</p>
             <p>{item.description}</p>
-            <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-              Learn more
-            </a>
+            
           </li>
         ))}
       </ul>

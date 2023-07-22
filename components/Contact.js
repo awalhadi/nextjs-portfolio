@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section className="mb-4">
             <h2 className="text-2xl font-semibold mb-3">Contact Details</h2>
-            <ul className="text-sm">
+            <ul>
               <li className="mb-2">
                 <strong className="mr-1">Phone: </strong>
                 <a href="tel:+821023456789" className="text-blue-600 block">
