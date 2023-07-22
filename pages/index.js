@@ -1,15 +1,9 @@
 import Head from "next/head";
-import Image from "next/image";
-import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
-import Skills from "../components/Skills";
-import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import { Element } from "react-scroll";
 import Favicon from "../components/Favicon";
-import Header from "../components/Header";
 import SkillSection from "../components/SkillSection";
 import ProfessionalSkills from "../components/ProfessionalSkills";
 import CurrentlyLearning from "../components/CurrentlyLearning";
