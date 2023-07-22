@@ -35,4 +35,6 @@ yarn dev
 
 ```
 
-<img src="./public/lighthous_speed.png" width="128"/>
+## Awesome performance and page speed
+
+<img src="./public/lighthous_speed.png" width="400"/>
