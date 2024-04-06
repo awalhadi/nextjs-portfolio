@@ -20,8 +20,7 @@ export default function Home() {
         <title>A Awal Hadi</title>
         <meta
           name="description"
-          content="
-        <Favicon />I love building applications that solve real-world problems and contribute to the open-source community. Constantly seeking new challenges to learn and grow as a developer."
+          content="I love building applications that solve real-world problems and contribute to the open-source community. Constantly seeking new challenges to learn and grow as a developer."
         />
 
         {/* Social Media Meta Tags */}
