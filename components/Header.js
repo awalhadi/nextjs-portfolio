@@ -10,7 +10,7 @@ const Header = () => {
         <div
           className="bg-cover bg-no-repeat rounded-full"
           style={{
-            backgroundImage: "url(/profile.jpg)",
+            backgroundImage: "url(/profile.webp)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",

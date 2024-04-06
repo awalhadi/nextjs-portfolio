@@ -8,7 +8,7 @@ const Hero = () => {
         <div
           className="md:w-1/2 mb-10 md:mb-0 bg-cover bg-no-repeat rounded-full"
           style={{
-            backgroundImage: "url(/profile.jpg)",
+            backgroundImage: "url(/profile.webp)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
