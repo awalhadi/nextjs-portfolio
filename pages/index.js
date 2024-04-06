@@ -10,6 +10,7 @@ import CurrentlyLearning from "../components/CurrentlyLearning";
 import ExperienceSection from "../components/ExperienceSection";
 import ProjectSection from "../components/ProjectSection";
 import EducationSection from "../components/EducationSection";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   return (
@@ -75,6 +76,8 @@ export default function Home() {
         </div>
       </main>
       <Footer />
+
+      <SpeedInsights />
     </div>
   );
 }
