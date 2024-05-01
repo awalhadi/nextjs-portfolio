@@ -12,14 +12,14 @@ const ProjectSection = () => {
       title: 'E-Commerce Website',
       description: 'An online e-commerce platform built with Laravel, React, and MySql. Multivariant Product management, Product price, Discount, Coupon, stock management, invoice, and many more feature..',
       techStack: ['Laravel', 'React.js', 'MySql', 'Innertia js', 'Redux'],
-      liveDemoLink: '#',
+      liveDemoLink: 'https://kachabazar.gqrcode.com',
       sourceCodeLink: '#',
     },
     {
       title: 'Learning management',
       description: 'Course system, Quiz system, GED exam system, Course enrollment with payment, Certification system, Automatic marking of MCQ, Student panel, Teacher panel, Admin panel, Payment system, and many more.',
       techStack: ['Laravel', 'Vue.js', 'React.js','Next.js'],
-      liveDemoLink: 'http://online.mentors.com.bd/',
+      liveDemoLink: 'https://mentorslearning.com',
       sourceCodeLink: '#',
     },
   ];
