@@ -20,7 +20,7 @@ const SocialLinks = () => {
         <FaGithub size={24} />
       </a>
       <a
-        href="https://www.linkedin.com/in/a-awal-hadi"
+        href="https://www.linkedin.com/in/awalhadi"
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-500 hover:text-blue-600"

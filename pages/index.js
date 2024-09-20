@@ -10,7 +10,7 @@ import CurrentlyLearning from "../components/CurrentlyLearning";
 import ExperienceSection from "../components/ExperienceSection";
 import ProjectSection from "../components/ProjectSection";
 import EducationSection from "../components/EducationSection";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function Home() {
   return (
@@ -39,7 +39,7 @@ export default function Home() {
         <meta property="og:type" content="profile" />
         <meta property="og:profile:first_name" content="A Awal" />
         <meta property="og:profile:last_name" content="Hadi" />
-        <meta property="og:profile:username" content="a-awal-hadi" />
+        <meta property="og:profile:username" content="awalhadi" />
         {/* Add more LinkedIn meta tags as needed */}
 
         {/* Facebook */}
